@@ -1,3 +1,9 @@
+macro_ej: macro_ej{
+compatible = "zmk,behavior-macro";
+label = "macro_ej";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp GRAVE>;
+};
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
